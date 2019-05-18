@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "bin": {
     "create": "./bin/start.js"
   },
