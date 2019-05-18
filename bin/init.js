@@ -46,7 +46,7 @@ function createProject(dest,app) {
     }
   }]).then(function (answers) {
     spinner.start();
-    const template = app.isDemand ? 'https://github.com/wcl-git/router-react.git' : 'https://github.com/wcl-git/router-react.git';
+    const template = app.isDemand ? 'https://github.com/wcl-git/router-react' : 'https://github.com/wcl-git/router-react';
     download(template, platePath, {clone:true},function (err) {
       spinner.stop()
       if (err) {
