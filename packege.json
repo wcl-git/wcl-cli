@@ -1,0 +1,34 @@
+{
+  "name": "wcl-cli",
+  "version": "0.0.1",
+  "description": "命令行工具",
+  "main": "./bin/start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "bin": {
+    "create": "./bin/start.js"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "wcl-cli"
+  ],
+  "author": "吴春雷",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.13.0",
+    "download-git-repo": "^1.0.2",
+    "fs-extra": "^5.0.0",
+    "inquirer": "^6.2.1",
+    "jsonfile": "^5.0.0",
+    "map-stream": "^0.0.7",
+    "ora": "^1.4.0",
+    "vinyl-fs": "^3.0.2",
+    "whatwg-fetch": "^2.0.3",
+    "which": "^1.3.0",
+    "win-spawn": "^2.0.0"
+  }
+}
