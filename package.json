@@ -1,6 +1,6 @@
 {
   "name": "wcl-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "命令行工具",
   "main": "./bin/start.js",
   "scripts": {
