@@ -2,7 +2,7 @@
  简单生成新项目脚手架
 # 使用
 
-* 全局安装 tnpm install wcl-cli -g
+* 全局安装 npm install wcl-cli -g
 
 # 命令
 
